@@ -1,0 +1,26 @@
+{
+  "name": "@skypack/export-map-test",
+  "description": "Test package that illustrates different export map scenarios",
+  "version": "0.0.1",
+  "private": false,
+  "license": "MIT",
+  "author": {
+    "name": "drewpowers",
+    "email": "drew@pow.rs"
+  },
+  "main": "main.js",
+  "exports": {
+    "./": "./module.js",
+    "./simple": "./simple.js",
+    "./conditional": {
+      "browser": "./conditional/browser.js",
+      "import": "./conditional/import.js",
+      "require": "./conditional/require.js",
+      "node": "./conditional/node.js",
+      "default": "./conditional/default.js"
+    },
+    "./wildcard/*": "./wildcard/*",
+    "./wildcard-js/*": "./wildcard-js/*.js",
+    "./package.json": "./package.json"
+  }
+}

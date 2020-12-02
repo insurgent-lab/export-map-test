@@ -1,0 +1,1 @@
+// ./wildcard-ext/one.js
