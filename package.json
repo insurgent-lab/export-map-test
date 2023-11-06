@@ -1,14 +1,12 @@
 {
-  "name": "@skypack/export-map-test",
-  "description": "Test package that illustrates different export map scenarios",
+  "name": "@insurgent/export-map-test",
+  "description": "Package that exposes various entry points via package.json's exports field for testing purposes",
   "version": "0.0.1",
-  "private": false,
   "license": "MIT",
-  "author": {
-    "name": "drewpowers",
-    "email": "drew@pow.rs"
-  },
-  "main": "main.js",
+  "author": "drewpowers <drew@pow.rs>",
+  "contributors": [
+    "Pierre Cavin <me@sherlox.io> (https://sherlox.io)"
+  ],
   "exports": {
     "./": "./module.js",
     "./simple": "./simple.js",
