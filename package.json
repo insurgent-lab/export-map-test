@@ -22,5 +22,8 @@
     "./wildcard/*": "./wildcard/*",
     "./wildcard-js/*": "./wildcard-js/*.js",
     "./package.json": "./package.json"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
