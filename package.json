@@ -3,9 +3,11 @@
   "description": "Package that exposes various entry points via package.json's exports field for testing purposes",
   "version": "0.0.1",
   "license": "MIT",
-  "author": "drewpowers <drew@pow.rs>",
-  "contributors": [
+  "maintainers": [
     "Pierre Cavin <me@sherlox.io> (https://sherlox.io)"
+  ],
+  "contributors": [
+    "drewpowers <drew@pow.rs>"
   ],
   "exports": {
     ".": "./main.js",
