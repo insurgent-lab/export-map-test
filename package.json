@@ -8,11 +8,11 @@
     "Pierre Cavin <me@sherlox.io> (https://sherlox.io)"
   ],
   "exports": {
-    "./": "./module.js",
+    ".": "./main.js",
     "./simple": "./simple.js",
     "./conditional": {
       "browser": "./conditional/browser.js",
-      "import": "./conditional/import.js",
+      "import": "./conditional/import.mjs",
       "require": "./conditional/require.js",
       "node": "./conditional/node.js",
       "default": "./conditional/default.js"

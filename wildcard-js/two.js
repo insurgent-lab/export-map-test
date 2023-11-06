@@ -1,1 +1,2 @@
-// ./wildcard-ext/two.js
+module.exports = "wildcardjs-two";
+module.exports.named = "wildcardjs-two.named";
