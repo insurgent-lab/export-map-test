@@ -5,7 +5,7 @@ Package that exposes various entry points via [`package.json`'s `exports` field]
 Each file contains specific content to be able to test the loaded module value.
 
 ```shell
-npm i @insurgent/export-map-test
+npm i --save-dev @insurgent/export-map-test
 ```
 
 ### Conditions:
